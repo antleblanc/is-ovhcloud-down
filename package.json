@@ -1,0 +1,43 @@
+{
+  "name": "is-ovh-down",
+  "version": "0.0.0",
+  "description": "Check if OVH is down",
+  "license": "MIT",
+  "repository": "antleblanc/is-ovh-down",
+  "author": {
+    "name": "Antoine Leblanc",
+    "email": "ant.leblanc@gmail.com",
+    "url": "antleblanc.me"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava test.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ovh",
+    "down",
+    "check",
+    "up",
+    "status"
+  ],
+  "dependencies": {
+    "got": "^6.7.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.6.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
