@@ -1,9 +1,9 @@
 {
-  "name": "is-ovh-down",
+  "name": "is-ovhcloud-down",
   "version": "1.0.1",
-  "description": "Check if OVH is down",
+  "description": "Check if OVHcloud is down",
   "license": "MIT",
-  "repository": "antleblanc/is-ovh-down",
+  "repository": "antleblanc/is-ovhcloud-down",
   "author": {
     "name": "Antoine Leblanc",
     "email": "ant.leblanc@gmail.com",
@@ -22,7 +22,7 @@
   "keywords": [
     "cli-app",
     "cli",
-    "ovh",
+    "ovhcloud",
     "down",
     "check",
     "up",

@@ -5,11 +5,11 @@ const got = require('got');
 
 meow(`
 	Usage
-	  $ is-ovh-down
+	  $ is-ovhcloud-down
 	  🦄  It's down. Go outside!
 `);
 
-got.head('ovh.com').then(() => {
+got.head('ovhcloud.com').then(() => {
 	console.error(`\n 🐈  It's up!`);
 	process.exitCode = 1;
 }).catch(() => {
