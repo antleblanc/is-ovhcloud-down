@@ -1,14 +1,14 @@
 import test from 'ava';
 import execa from 'execa';
 
-test(async t => {
+test('cli', async t => {
 	let ret;
 
 	try {
 		ret = await execa('./cli.js');
-	} catch (err) {
-		ret = err.stderr;
+	} catch (error) {
+		ret = error.stderr;
 	}
 
-	t.true(/down|up/.test(ret));
+	t.regex(ret, /down|up/);
 });
