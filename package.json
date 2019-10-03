@@ -36,5 +36,16 @@
     "ava": "*",
     "execa": "^0.6.0",
     "xo": "*"
+  },
+  "xo": {
+    "rules": {
+      "quotes": [
+        "error",
+        "single",
+        {
+          "allowTemplateLiterals": true
+        }
+      ]
+    }
   }
 }
