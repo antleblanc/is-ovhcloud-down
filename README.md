@@ -1,22 +1,22 @@
-# is-ovh-down [![Build Status](https://travis-ci.org/antleblanc/is-ovh-down.svg?branch=master)](https://travis-ci.org/antleblanc/is-ovh-down)
+# is-ovhcloud-down [![Build Status](https://travis-ci.org/antleblanc/is-ovhcloud-down.svg?branch=master)](https://travis-ci.org/antleblanc/is-ovhcloud-down)
 
-> Check if OVH is down
+> Check if OVHcloud is down
 
 
 ## Install
 
 ```
-$ npm install --global is-ovh-down
+$ npm install --global is-ovhcloud-down
 ```
 
 
 ## Usage
 
 ```
-$ is-ovh-down
+$ is-ovhcloud-down
 
   Usage
-    $ is-ovh-down
+    $ is-ovhcloud-down
     🦄 It's down!
 ```
 
