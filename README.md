@@ -5,12 +5,17 @@
 This package is inspired by [`is-github-down`](https://github.com/sindresorhus/is-github-down).
 I have created this one in order to test the publication on the [npm](https://www.npmjs.com/) registry.
 
+## Quick usage
+
+```
+$ npx is-ovhcloud-down
+```
+
 ## Install
 
 ```
 $ npm install --global is-ovhcloud-down
 ```
-
 
 ## Usage
 
@@ -21,7 +26,6 @@ $ is-ovhcloud-down
     $ is-ovhcloud-down
     🦄 It's down!
 ```
-
 
 ## License
 
