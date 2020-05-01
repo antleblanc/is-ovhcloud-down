@@ -2,6 +2,8 @@
 
 > Check if OVHcloud is down
 
+This package is inspired by [`is-github-down`](https://github.com/sindresorhus/is-github-down).
+I have created this one in order to test the publication on the [npm](https://www.npmjs.com/) registry.
 
 ## Install
 
