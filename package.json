@@ -11,10 +11,10 @@
   },
   "bin": "cli.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "scripts": {
-    "test": "xo && ava test.js"
+    "test": "xo && ava"
   },
   "files": [
     "cli.js"
@@ -29,23 +29,12 @@
     "status"
   ],
   "dependencies": {
-    "got": "^6.7.1",
-    "meow": "^3.7.0"
+    "got": "^11.0.1",
+    "meow": "^6.1.0"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "^2.4.0",
     "execa": "^0.6.0",
-    "xo": "*"
-  },
-  "xo": {
-    "rules": {
-      "quotes": [
-        "error",
-        "single",
-        {
-          "allowTemplateLiterals": true
-        }
-      ]
-    }
+    "xo": "^0.30.0"
   }
 }

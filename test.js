@@ -2,13 +2,15 @@ import test from 'ava';
 import execa from 'execa';
 
 test('cli', async t => {
-	let ret;
+	let returnValue;
 
 	try {
-		ret = await execa('./cli.js');
+		const {stdout, stderr} = await execa('./cli.js');
+		returnValue = stdout || stderr;
 	} catch (error) {
-		ret = error.stderr;
+		const {stdout} = error;
+		returnValue = stdout;
 	}
 
-	t.regex(ret, /down|up/);
+	t.regex(returnValue, /down|up/);
 });

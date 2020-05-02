@@ -10,8 +10,8 @@ meow(`
 `);
 
 got.head('ovhcloud.com').then(() => {
-	console.error(`\n 🐈  It's up!`);
+	console.error('\n 🐈  It\'s up!');
 	process.exitCode = 1;
 }).catch(() => {
-	console.log(`\n🦄  It's down!`);
+	console.log('\n🦄  It\'s down!');
 });
