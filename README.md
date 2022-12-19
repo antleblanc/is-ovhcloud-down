@@ -29,4 +29,4 @@ $ is-ovhcloud-down
 
 ## License
 
-MIT © [Antoine Leblanc](https://antleblanc.me)
+MIT © Antoine Leblanc
