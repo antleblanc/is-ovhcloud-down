@@ -1,6 +1,6 @@
 {
   "name": "is-ovhcloud-down",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Check if OVHcloud is down",
   "license": "MIT",
   "repository": "antleblanc/is-ovhcloud-down",
