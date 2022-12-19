@@ -1,7 +1,7 @@
 import test from 'ava';
 import execa from 'execa';
 
-test('cli', async t => {
+test('main', async t => {
 	let returnValue;
 
 	try {
@@ -12,5 +12,5 @@ test('cli', async t => {
 		returnValue = stdout;
 	}
 
-	t.regex(returnValue, /down|up/);
+	t.regex(returnValue, /down|up|issues/);
 });
